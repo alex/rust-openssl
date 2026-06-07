@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* Added `SSL_VERIFY_CLIENT_ONCE` and `SSL_VERIFY_POST_HANDSHAKE`.
+
 ## [v0.9.116] - 2026-05-16
 
 ### Changed

@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Fixed
+
+* `SslContextRef::verify_mode` and `SslRef::verify_mode` no longer panic when the verify mode contains bits not modeled by `SslVerifyMode`.
+
+### Added
+
+* Added `SslVerifyMode::CLIENT_ONCE` and `SslVerifyMode::POST_HANDSHAKE`.
+
 ## [v0.10.80] - 2026-05-16
 
 ### Fixed
